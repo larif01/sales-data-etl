@@ -1,0 +1,16 @@
+sale_id,sale_date,product,category,quantity,unit_price
+S001,2026-11-01,Notebook,Eletronicos,1,3500.00
+S002,2026-11-02,Mouse,Eletronicos,2,75.50
+S003,2026-11-02,Cadeira,Moveis,1,650.00
+S004,2026-11-03,Teclado,Eletronicos,3,120.00
+S005,2026-11-03,Mesa,Moveis,1,890.00
+S006,2026-11-04,Monitor,Eletronicos,2,1100.00
+S007,2026-11-05,Caderno,Papelaria,5,22.90
+S008,2026-11-05,Caneta,Papelaria,12,3.50
+S009,2026-11-06,Luminaria,Moveis,1,149.90
+S010,2026-11-07,Fone,Eletronicos,2,199.90
+S010,2026-11-07,Fone,Eletronicos,2,199.90
+S011,2026-11-08,Mouse,Eletronicos,-2,75.50
+S012,invalid-date,Teclado,Eletronicos,1,120.00
+S013,2026-11-09,,Eletronicos,1,99.00
+S014,2026-11-10,Cabo,Eletronicos,1,-10.00
