@@ -63,3 +63,16 @@ A sale is valid if its ID, date (YYYY-MM-DD), product, category, positive intege
 ## Future enhancements
 
 Add PostgreSQL, data quality reporting, scheduler/orchestration and Power BI in a follow-up project.
+
+## Interactive dashboard (Streamlit)
+
+The project includes a dashboard with KPIs, sales over time, revenue by category, top products, date/category filters, and CSV export.
+
+```bash
+pip install -r requirements.txt
+python -m src.main
+streamlit run dashboard.py
+```
+
+Open the local URL displayed by Streamlit (typically http://localhost:8501).
+If the SQLite database has not been created, the dashboard displays a preview using the cleaned sample CSV. Run the ETL to use persisted records.
